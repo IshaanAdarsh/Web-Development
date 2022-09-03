@@ -1,0 +1,81 @@
+<html>
+<!--Deprecated or 👎 means its not recommended-->
+<!--Headings: Highest -> h1 and Lowest -> h6-->
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+<!--Break function: The text after the <br> begins again at 
+the start of the next line of the text block.-->
+<center>The center tag aligns the text <br>The text after the
+    <br> begins again at the start of the next line of the text block.</center>
+<!--Horizontal Line -> Default align is Left-->
+<hr size="10" align="center" color="Red" noshade width="400" >
+<em>This is an emphasis element (better than italics -> <i>lol</i>) <br></em>
+<strong>This is the strong tag (better than bold -> <b>lol</b>)</strong> 
+<p>This makes the words form a paragraph (space above and below)</p>
+<!--Lists-->
+<ol type="i" start="3">
+    <li>This is an ordered list</li>
+    <ul>
+        <li> This is an unordered list nested</li>
+    </ul>
+</ol>
+
+<!--Table-->
+<table border="10" align="center" style="background-color: #0f0" 
+span="10" cellpadding ="10" frame ="100" cellspacing="10"  >
+    <thead>
+        <tr>
+            <th colspan="2"> Table Heading</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>The table body</td>
+            <td>With two column</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td>this is</td>
+        <td>footer</td>
+    </tfoot>
+</table>
+<!--We can use tables for layout-->
+<table cellspacing= "20">
+    <tr><!--Image Elements and Links-->
+        <td>
+            <a href="https://monkeytype.com"><img src="fake-human-circle-img.png" alt="pepe-the-frog" ></a>
+        </td>
+        <td><h1>Ishaan Adarsh</h1>
+            <p><em>ECE undergraduate</em></p>
+            <h2>About me: </h2>
+            <p>
+            I am a ECE undergraduate with a keen interest in the realm of Development and Competitive Programming. I am exploring new domains and curious to learn about new technologies in the world of Computing.
+            </p>
+        </td>
+    </tr>
+</table>
+<hr>
+<!--Collect user data using form element-->
+<form action="mailto:iadarsh2129@gmail.com" method="post" enctype="text/plain">
+    <label>Name: </label>
+    <input type="text">
+    <input type="color" name="yourcolor" id=""><br>
+    <label for="">Do you want to sign up to the email list</label>
+    <input type="checkbox" name="consent" id=""><br>
+    <label for="">Email: </label>
+    <input type="email" name="youremail" id=""><br>
+    <label for="">Your message: </label><br>
+    <textarea name="yourmessage" id="" cols="30" rows="10"></textarea><br><br>
+    <label for="">Password</label>
+    <input type="password" name="yourpassword" id=""><br>
+    <label for="">DOB</label>
+    <input type="Date" name="tourDOB" id=""><br>
+    <input type="Radio"><br>
+    <input type="Range" name="bitch" id="">
+    <br><br><input type="submit" name="" id="">
+</form>
+</html>

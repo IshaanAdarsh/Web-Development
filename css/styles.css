@@ -1,0 +1,21 @@
+body{
+    background-color:#E1FFEE;
+}
+hr{
+    background-color: #E1FFEE;
+    /* border-style:  dotted none none; */
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    /* height: 2px; */
+    width: 5%;
+    /* % is used to be device friendly (x% of the screen 
+    of the device)*/
+}
+h1{
+    color: #66BFBF;
+}
+h3{
+    color: #66BFBF;
+}

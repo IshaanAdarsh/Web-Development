@@ -1,3 +1,7 @@
+/************************ TAG SELECTORS *************************/
+/* Selector{ Property : value;}
+Properties should be in Alphabetical Order */
+
 body{
     background-color:#E1FFEE;
 }
@@ -18,4 +22,30 @@ h1{
 }
 h3{
     color: #66BFBF;
+}
+/* Pseudo class ( tag:pseudo_classname ) */
+img:hover{
+    background-color: gold;
+}
+
+/************************* CLASS SELECTORS ************************/
+/* .classselector{ Property: value;} -> NOT UNIQUE  
+(overides the tag selector as its more specific)
+(HTML element can have more than one class) */
+
+.football{
+    background-color: red;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+/************************* ID SELECTORS ************************/
+/* #IDselector{ Property: value;} -> UNIQUE 
+(overides the tag selector as its more specific)
+HTML element can have only one ID */
+
+#Edu{
+    color: blue;
 }

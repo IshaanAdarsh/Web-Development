@@ -45,36 +45,25 @@ img:hover{
 .circular{
     border-radius: 100%;
 }
-/* Simple design using box model */
-.upper{
-    background-color: #E4F9F5;
-    border-color: black;
-    border-style: solid;
-    border-width: 10px;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
+
+.pro{
+    text-decoration: underline;
+    display: inline-block;
+    width: 100px;
+  
 }
 
-.middle{
-    background-color: red;
-    border-width: 20px;
-    border-color: black;
-    border-style: solid;
-    width: 200px;
-    height: 200px;
-    margin-left: 260px;
+/* Display Property:    block -> created block elments
+                        inline block -> best of both worlds
+                        none -> element does not exist*/
+.me{
+    display: none;
 }
 
-.lower{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-    border-color: black;
-    border-style: solid;
-    border-width: 10px;
-    margin-left: 500px;
-
+.r{
+    visibility: hidden; 
+    /* makes the element dissapear but keeps the
+     original position as if its still there */
 }
 
 /************************* ID SELECTORS ************************/

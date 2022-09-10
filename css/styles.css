@@ -26,6 +26,7 @@ h3{
 
 div{
     background-color: #E4F9F5;
+    position: relative;
 
 }
 
@@ -64,6 +65,37 @@ img:hover{
     visibility: hidden; 
     /* makes the element dissapear but keeps the
      original position as if its still there */
+}
+
+/* Positioning :    Static-> default
+                    Relative-> moves the postion of element relative to default */
+.red{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    background-color: red;
+}
+
+.blue{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: blue;
+    
+}
+
+.yellow{
+    height: 100px;
+    width: 100px;    
+    display: inline-block;
+    background-color: yellow;
+}
+
+.cloud{
+    position: absolute;
+    right: 30px;
 }
 
 /************************* ID SELECTORS ************************/

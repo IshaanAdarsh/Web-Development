@@ -68,20 +68,32 @@ img:hover{
 }
 
 /* Positioning :    Static-> default
-                    Relative-> moves the postion of element relative to default */
+
+                    Relative-> moves the position of element relative 
+                    to default position (static)
+
+                    Absolute-> moves the position of the element 
+                    relative to its parent element (or) absolute 
+                    to the webpage
+
+                    Fixed-> stays in that position for all time, 
+                    used to display elements you want see all the 
+                    time while scrolling through your webpage
+                    */
 .red{
     height: 100px;
     width: 100px;
-    position: relative;
-    top: 10px;
-    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 200px;
     background-color: red;
 }
 
 .blue{
     height: 100px;
     width: 100px;
-    display: inline-block;
+    top: 100px;
+    left: 100px;
     background-color: blue;
     
 }
@@ -89,13 +101,13 @@ img:hover{
 .yellow{
     height: 100px;
     width: 100px;    
-    display: inline-block;
+    bottom: 100px;
     background-color: yellow;
 }
 
 .cloud{
-    position: absolute;
-    right: 30px;
+    position: fixed;
+    top: 0;
 }
 
 /************************* ID SELECTORS ************************/

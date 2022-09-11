@@ -4,6 +4,8 @@ Properties should be in Alphabetical Order */
 
 body{
     background-color:#E1FFEE;
+    text-align: center; 
+    /* Centers everything that doesn't have a widht set*/
 }
 hr{
     background-color: #E1FFEE;
@@ -50,8 +52,6 @@ img:hover{
 .pro{
     text-decoration: underline;
     display: inline-block;
-    width: 100px;
-  
 }
 
 /* Display Property:    block -> created block elments
@@ -80,7 +80,7 @@ img:hover{
                     used to display elements you want see all the 
                     time while scrolling through your webpage
                     */
-.red{
+/* .red{
     height: 100px;
     width: 100px;
     position: absolute;
@@ -103,12 +103,39 @@ img:hover{
     width: 100px;    
     bottom: 100px;
     background-color: yellow;
+} */
+
+.grey{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 0 auto; 
+    /* to center elements with width */
 }
 
-.cloud{
-    position: fixed;
-    top: 0;
+.top-container{
+    position: relative;
+    padding-top: 100px;
+
 }
+
+.mountain{
+    display: inline block;
+   
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
 
 /************************* ID SELECTORS ************************/
 /* #IDselector{ Property: value;} -> UNIQUE 

@@ -6,6 +6,7 @@ body{
     background-color:#E1FFEE;
     text-align: center; 
     /* Centers everything that doesn't have a widht set*/
+    font-family: 'Merriweather', serif;
 }
 hr{
     background-color: #E1FFEE;
@@ -21,9 +22,34 @@ hr{
 }
 h1{
     color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5em;
+    margin: 50px auto 0 auto;
+    /* 1em = 100% = 16px */
+    /* em is based on parent of the element
+    so if we set parent ot another size we 
+    might face problems 
+    
+    Use rem (root em ) instead */
+
 }
-h3{
+
+h2{
     color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+a{
+    color: #11999E;
 }
 
 div{
@@ -66,6 +92,29 @@ img:hover{
     /* makes the element dissapear but keeps the
      original position as if its still there */
 }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/* .code-skill-description{
+    clear: left;}
+    /* clear = anti-float */
 
 /* Positioning :    Static-> default
 
@@ -116,6 +165,7 @@ img:hover{
 .top-container{
     position: relative;
     padding-top: 100px;
+    background-color:  #EAF6F6;
 
 }
 
